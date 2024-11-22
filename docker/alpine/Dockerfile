@@ -25,6 +25,7 @@ RUN set -x \
       linux-headers \
       mbedtls-dev \
       pcre-dev \
+      iptools \
  # Build & install
  && cd /tmp/repo \
  && ./autogen.sh \
